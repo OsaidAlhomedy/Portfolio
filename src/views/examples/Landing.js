@@ -40,7 +40,7 @@ import {
   InputGroup,
   Container,
   Row,
-  Col
+  Col,
 } from "reactstrap";
 
 // core components
@@ -81,38 +81,14 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        What makes a Tech-Worm?
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Technology is increasingly taking over every aspect of
+                        our life. Technology is always updated and requires you
+                        to be updated too. Technology always makes sense, not
+                        like people. I LOVE TECHNOLOGY 😍
                       </p>
-                      <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
-                      </div>
                     </Col>
                   </Row>
                 </div>
@@ -141,91 +117,130 @@ class Landing extends React.Component {
               <Row className="justify-content-center">
                 <Col lg="12">
                   <Row className="row-grid">
-                    <Col lg="4">
+                    <Col lg="3">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-primary rounded-circle mb-4">
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Code 101 , Code 102
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Getting started in HTML, CSS, and JavaScript with
+                            beginner-level courses
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              Web Development
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              JavaScript Programming
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              Collaboration
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="primary"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://www.codefellows.org/courses/code-102/intro-to-software-development/"
+                            target="_blank"
                           >
                             Learn more
                           </Button>
                         </CardBody>
                       </Card>
                     </Col>
-                    <Col lg="4">
+                    <Col lg="3">
+                      <Card className="card-lift--hover shadow border-0">
+                        <CardBody className="py-5">
+                          <div className="icon icon-shape icon-shape-danger rounded-circle mb-4">
+                            <i className="fa fa-code" />
+                          </div>
+                          <h6 className="text-danger text-uppercase">
+                            Code 201
+                          </h6>
+                          <p className="description mt-3">
+                            Getting used to writing syntax and pushing code as
+                            you learn the basics of web development through
+                            HTML, CSS, Javascript, and the tools and best
+                            practices used by software developers around the
+                            world.
+                          </p>
+                          <div>
+                            <Badge color="danger" pill className="mr-1">
+                              Concepts
+                            </Badge>
+                            <Badge color="danger" pill className="mr-1">
+                              Languages
+                            </Badge>
+                            <Badge color="danger" pill className="mr-1">
+                              Environments and Tools
+                            </Badge>
+                          </div>
+                          <Button
+                            className="mt-4"
+                            color="danger"
+                            href="https://www.codefellows.org/courses/code-201/foundations-of-software-development/"
+                            target="_blank"
+                          >
+                            Learn more
+                          </Button>
+                        </CardBody>
+                      </Card>
+                    </Col>
+                    <Col lg="3">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-success rounded-circle mb-4">
-                            <i className="ni ni-istanbul" />
+                            <i className="fa fa-terminal" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Code 301
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            The MVC pattern, object-oriented and functional
+                            programming, and computer science fundamentals such
+                            as basic data structures and algorithms. create and
+                            deploy web apps in the “MERN” stack with Mongo,
+                            Express, React, and Node.js, with the help of
+                            third-party APIs and libraries from around the web.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              Daily Practice in Data Structures
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              Languages
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              success
+                              Environments and Tools
                             </Badge>
                           </div>
                           <Button
                             className="mt-4"
                             color="success"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://www.codefellows.org/courses/code-301/intermediate-software-development/"
+                            target="_blank"
                           >
                             Learn more
                           </Button>
                         </CardBody>
                       </Card>
                     </Col>
-                    <Col lg="4">
+                    <Col lg="3">
                       <Card className="card-lift--hover shadow border-0">
                         <CardBody className="py-5">
                           <div className="icon icon-shape icon-shape-warning rounded-circle mb-4">
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Code 401
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Get advanced training in a specific programming
+                            language and land a high-paying job in the industry.
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
@@ -241,8 +256,8 @@ class Landing extends React.Component {
                           <Button
                             className="mt-4"
                             color="warning"
-                            href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            href="https://www.codefellows.org/courses/code-400/"
+                            target="_blank"
                           >
                             Learn more
                           </Button>
@@ -258,11 +273,7 @@ class Landing extends React.Component {
             <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-md-2" md="6">
-                  <img
-                    alt="..."
-                    className="img-fluid floating"
-                    src={promo1}
-                  />
+                  <img alt="..." className="img-fluid floating" src={promo1} />
                 </Col>
                 <Col className="order-md-1" md="6">
                   <div className="pr-md-5">
@@ -336,11 +347,7 @@ class Landing extends React.Component {
               <Row className="row-grid align-items-center">
                 <Col md="6">
                   <Card className="bg-default shadow border-0">
-                    <CardImg
-                      alt="..."
-                      src={cardImg}
-                      top
-                    />
+                    <CardImg alt="..." src={cardImg} top />
                     <blockquote className="card-blockquote">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -393,7 +400,7 @@ class Landing extends React.Component {
                     <a
                       className="font-weight-bold text-warning mt-5"
                       href="#pablo"
-                      onClick={e => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                     >
                       A beautiful UI Kit for impactful websites
                     </a>
@@ -450,7 +457,7 @@ class Landing extends React.Component {
                           <a
                             className="text-success"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </a>
@@ -478,7 +485,7 @@ class Landing extends React.Component {
                           <a
                             className="text-warning"
                             href="#pablo"
-                            onClick={e => e.preventDefault()}
+                            onClick={(e) => e.preventDefault()}
                           >
                             Learn more
                           </a>
@@ -537,7 +544,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -545,7 +552,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -553,7 +560,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="warning"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -581,7 +588,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -589,7 +596,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -597,7 +604,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="primary"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -623,7 +630,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -631,7 +638,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -639,7 +646,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -665,7 +672,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-twitter" />
                         </Button>
@@ -673,7 +680,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-facebook" />
                         </Button>
@@ -681,7 +688,7 @@ class Landing extends React.Component {
                           className="btn-icon-only rounded-circle ml-1"
                           color="success"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          onClick={(e) => e.preventDefault()}
                         >
                           <i className="fa fa-dribbble" />
                         </Button>
@@ -798,7 +805,7 @@ class Landing extends React.Component {
                       </p>
                       <FormGroup
                         className={classnames("mt-5", {
-                          focused: this.state.nameFocused
+                          focused: this.state.nameFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -817,7 +824,7 @@ class Landing extends React.Component {
                       </FormGroup>
                       <FormGroup
                         className={classnames({
-                          focused: this.state.emailFocused
+                          focused: this.state.emailFocused,
                         })}
                       >
                         <InputGroup className="input-group-alternative">
@@ -829,8 +836,12 @@ class Landing extends React.Component {
                           <Input
                             placeholder="Email address"
                             type="email"
-                            onFocus={() => this.setState({ emailFocused: true })}
-                            onBlur={() => this.setState({ emailFocused: false })}
+                            onFocus={() =>
+                              this.setState({ emailFocused: true })
+                            }
+                            onBlur={() =>
+                              this.setState({ emailFocused: false })
+                            }
                           />
                         </InputGroup>
                       </FormGroup>
