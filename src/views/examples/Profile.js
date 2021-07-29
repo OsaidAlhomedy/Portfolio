@@ -89,7 +89,6 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="#pablo"
-                          onClick={(e) => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -97,11 +96,10 @@ class Profile extends React.Component {
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
+                          href="mailto:o.alhomedy@gmail.com"
                           size="sm"
                         >
-                          Message
+                          Email Me
                         </Button>
                       </div>
                     </Col>
