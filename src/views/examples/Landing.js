@@ -280,77 +280,23 @@ class Landing extends React.Component {
                   </div>
                 </Col>
                 <Col className="order-lg-1" lg="6">
-                  <div className="d-flex px-3">
-                    <div>
-                      <div className="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-                        <i className="ni ni-building text-primary" />
-                      </div>
-                    </div>
+                  <div className="d-flex px-3 align-items-center">
                     <div className="pl-4">
-                      <h4 className="display-3 text-black">Modern Interface</h4>
+                      <h4 className="display-3 text-black">My Background</h4>
                       <p className="text-default">
-                        The Arctic Ocean freezes every winter and much of the
-                        sea-ice then thaws every summer, and that process will
-                        continue whatever.
+                        My name is Osaid Alhomedy, I studied mechanical
+                        engineering and I am currently studying software
+                        development at ASAC. I have worked as a hardware
+                        technician in Ma'an-Jordan and as a graphic designer at
+                        a printing press. What I am trying to achieve right now
+                        is landing a great job opportunity in a company with
+                        team members who share the same interests as me.
+                        <b>THAT WOULD BE A DREAM COMES TRUE</b>. I am a guy who
+                        find satisfaction in problems solution.
                       </p>
+                      <h3>Thank you</h3>
                     </div>
                   </div>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-success rounded-circle text-white">
-                            <i className="ni ni-satisfied" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-success">
-                            Awesome Support
-                          </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
-                          <a
-                            className="text-success"
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
-                  <Card className="shadow shadow-lg--hover mt-5">
-                    <CardBody>
-                      <div className="d-flex px-3">
-                        <div>
-                          <div className="icon icon-shape bg-gradient-warning rounded-circle text-white">
-                            <i className="ni ni-active-40" />
-                          </div>
-                        </div>
-                        <div className="pl-4">
-                          <h5 className="title text-warning">
-                            Modular Components
-                          </h5>
-                          <p>
-                            The Arctic Ocean freezes every winter and much of
-                            the sea-ice then thaws every summer, and that
-                            process will continue whatever.
-                          </p>
-                          <a
-                            className="text-warning"
-                            href="#pablo"
-                            onClick={(e) => e.preventDefault()}
-                          >
-                            Learn more
-                          </a>
-                        </div>
-                      </div>
-                    </CardBody>
-                  </Card>
                 </Col>
               </Row>
             </Container>
