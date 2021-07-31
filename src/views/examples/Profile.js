@@ -23,7 +23,7 @@ import { Button, Card, Container, Row, Col } from "reactstrap";
 // core components
 import DemoNavbar from "components/Navbars/DemoNavbar.js";
 import SimpleFooter from "components/Footers/SimpleFooter.js";
-import profile from "assets/img/theme/team-4-800x800.jpg";
+import profile from "assets/img/theme/team-5-512x512.jpg";
 
 class Profile extends React.Component {
   componentDidMount() {
@@ -38,7 +38,7 @@ class Profile extends React.Component {
         <main className="profile-page" ref="main">
           <section className="section-profile-cover section-shaped my-0">
             {/* Circles background */}
-            <div className="shape shape-style-1 shape-default alpha-4">
+            <div className="shape shape-style-1 shape-dark alpha-4">
               <span />
               <span />
               <span />
@@ -71,7 +71,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -89,7 +89,6 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="#pablo"
-                          onClick={e => e.preventDefault()}
                           size="sm"
                         >
                           Connect
@@ -97,19 +96,18 @@ class Profile extends React.Component {
                         <Button
                           className="float-right"
                           color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
+                          href="mailto:o.alhomedy@gmail.com"
                           size="sm"
                         >
-                          Message
+                          Email Me
                         </Button>
                       </div>
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
                         <div>
-                          <span className="heading">22</span>
-                          <span className="description">Friends</span>
+                          <span className="heading">4</span>
+                          <span className="description">Projects</span>
                         </div>
                         <div>
                           <span className="heading">10</span>
@@ -124,33 +122,34 @@ class Profile extends React.Component {
                   </Row>
                   <div className="text-center mt-5">
                     <h3>
-                      Jessica Jones{" "}
-                      <span className="font-weight-light">, 27</span>
+                      Osaid Alhomedy{" "}
+                      <span className="font-weight-light">, 24</span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
-                      Bucharest, Romania
+                      Amman, Jordan
                     </div>
                     <div className="h6 mt-4">
                       <i className="ni business_briefcase-24 mr-2" />
-                      Solution Manager - Creative Tim Officer
+                      Full Stack Web Developer
                     </div>
                     <div>
                       <i className="ni education_hat mr-2" />
-                      University of Computer Science
+                      Abdul Aziz Al Ghurair School of Advanced Computing @LTUC
                     </div>
                   </div>
                   <div className="mt-5 py-5 border-top text-center">
                     <Row className="justify-content-center">
                       <Col lg="9">
+                        <p>They call me a Tech-Worm</p>
                         <p>
-                          An artist of considerable range, Ryan — the name taken
-                          by Melbourne-raised, Brooklyn-based Nick Murphy —
-                          writes, performs and records all of his own music,
-                          giving it a warm, intimate feel with a solid groove
-                          structure. An artist of considerable range.
+                          A Full-stack developer with a background in tech
+                          support in hardware and software. I am also a
+                          Mechanical engineer, but that is irrelevant for now. I
+                          would love an opportunity to put my expertise into
+                          action. Pick me and you will not be disappointed 😉
                         </p>
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#pablo" onClick={(e) => e.preventDefault()}>
                           Show more
                         </a>
                       </Col>
@@ -161,7 +160,6 @@ class Profile extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
       </>
     );
   }
